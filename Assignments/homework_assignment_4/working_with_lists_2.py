@@ -1,7 +1,7 @@
 #Pohsun Chang
 #830911
 #MSITM6341
-#09/17/2019
+#09/24/2019
 
 odd_list = [num for num in range(3, 50 + 1) if num % 2 != 0]
 # assign odd numbers from the range 3 to 50 into the list
