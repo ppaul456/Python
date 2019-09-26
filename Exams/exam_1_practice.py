@@ -27,6 +27,7 @@ ordered_list_of_books = ['The Way of Kings', 'Mistborn', 'Harry Potter', 'The Ma
 requested_books = ['The Way of Kings', 'Mistborn', 'Hunger Games']
 
 book_ranking_numbers = [ num for num in range(1,len(ordered_list_of_books)+1)]#TODO: Use a list comprehension to generate a list of numbers between 1 and the number of books.
+# set a lsit for the book ranking numbers, range(stratindex,endindex+1)= range(1,len(ordered_list_of_books)+1)
 
 book_ordinal_ranking_numbers = []
 # emty List to be added
@@ -40,6 +41,7 @@ for book_ranking in book_ranking_numbers:
         book_ordinal_ranking_numbers.append(str(book_ranking) + "rd")
     else:
         book_ordinal_ranking_numbers.append(str(book_ranking) + "th")
+# use elif to add st,nd,rd,th behinf ranking numbers
 
 print(book_ordinal_ranking_numbers)
 
