@@ -43,6 +43,7 @@ stock_price_changes = []
 
 # stock_price_changes = [round(stock_prices[index+1]-stock_prices[index], 2 for index in range(len(stock_prices)-1)]   
 
+# second solution
 index= 0
 for price in stock_prices:
     if index < 5 :
