@@ -41,8 +41,20 @@ stock_price_changes = []
 #Hint: How many elements should there be in stock_price_changes?
 
 
-stock_price_changes = [round(stock_prices[index+1]-stock_prices[index], 2) for index in range(len(stock_prices)-1)]   
-         
+# stock_price_changes = [round(stock_prices[index+1]-stock_prices[index], 2 for index in range(len(stock_prices)-1)]   
+
+index= 0
+for price in stock_prices:
+    if index < 5 :
+        price = round((stock_prices [index+1]- stock_prices [index]),2)  # two decimal points saved
+        stock_price_changes.append(price)
+        index= index +1
+
+print(stock_price_changes)
+        
+
+
+
 
 
 print("\n------------ " + stock_symbol.upper() + " ------------")
