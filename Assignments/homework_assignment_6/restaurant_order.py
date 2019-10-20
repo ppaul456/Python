@@ -18,4 +18,16 @@ for item in customer_order:
 print("-----------------------")
 
 print("Total price: " + "$" +str(menu_items_price.get(customer_order[0]) + menu_items_price.get(customer_order[2])))
-# calculate the total price
+# calculate the total price-1
+# calculate the total price-2(using for)
+total_price = []
+
+for price in customer_order:
+    if menu_items_price.get(price):
+        price = menu_items_price[price]
+        total_price.append(price)
+
+print("Total price: $" + str(sum(total_price)))
+
+
+    
