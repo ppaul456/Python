@@ -12,5 +12,5 @@ for count in range(0, len(random_numbers)):
     if count %2 != 0:
         odd_number.append(random_numbers[count])
         count = count +1 
-        print(odd_number)
+print(odd_number)
             
