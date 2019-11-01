@@ -45,6 +45,7 @@ print("----------------------------")
 print("Restaurant Menu")
 print("----------------------------")
 
+# Use default method items() to fetch the values of item and cost from menu_items 
 for item, cost in menu_items.items():
     print("Item: " + item + " Cost: " + cost)
 
