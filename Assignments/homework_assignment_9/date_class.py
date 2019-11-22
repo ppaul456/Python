@@ -5,7 +5,7 @@
 
 class Date():             # create a class
 
-    def __init__(self):         # special function in python, self (key word in python) is the object that prestents
+    def __init__(self):         # special function in python __init__, self (key word in python) is the object that prestents
         self.day = ""
         self.month = ""
         self.year = ""
