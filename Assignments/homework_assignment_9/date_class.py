@@ -9,7 +9,7 @@ class Date():             # create a class
         self.day = ""
         self.month = ""
         self.year = ""
-        self.date ={}          # set change_date as a dic  
+        self.date ={}          # set self.date as a dic  
 
     def print_date(self):         # self(special key) need to be first
         print(self.month + " " + str(self.day)+ "," + " " + str(self.year))  # call the properties from class, convert int to str
